@@ -1,0 +1,19 @@
+* {margin: 0;padding: 0;}
+p,h1,h2{margin:0}
+input,button, input:focus, button:focus {outline:none!important}
+a, button, input {
+	transition: all 0.5s;
+	outline: none;
+}
+html{width: 100%;}
+a:active,a:focus,input:focus,input:active{outline:none}
+a,a:hover,a:focus,a:active{text-decoration:none;transition: all 0.5s;}
+select,option{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+li{list-style:none;}
+// ::selection {
+// background: #f794af; /* Safari */
+// }
+// ::-moz-selection {
+// background: #f794af; /* Firefox */
+// }
+
