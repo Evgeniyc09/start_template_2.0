@@ -84,7 +84,7 @@ gulp.task('imagemin', function() {
 	.pipe(gulp.dest('dist/img')); 
 });
 
-gulp.task('build', ['removedist', 'imagemin', 'sass', 'sass-min', 'common-js', 'js'], function() {
+gulp.task('build', ['removedist', 'imagemin', 'sass', 'sass-min', 'js'], function() { //Добавить таск 'common-js' для минификации js
 
 	var buildFiles = gulp.src([
 		'app/*.html',
